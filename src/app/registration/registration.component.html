@@ -1,0 +1,31 @@
+<table>
+    <tr>
+        <th colspan="2">New User</th>
+    </tr>
+    <tr>
+        <td>Username</td>
+        <input type="text" [(ngModel)]="username">
+    </tr>
+    <tr>
+        <td>Display Name</td>
+        <input type="text" [(ngModel)]="displayName">
+    </tr>
+    <tr>
+        <td>Email</td>
+        <input type="text" [(ngModel)]="email">
+    </tr>
+    <tr>
+        <td>Phone</td>
+        <input type="number" [(ngModel)]="phone">
+    </tr>
+    <tr>
+        <td>Password</td>
+        <input type="password" [(ngModel)]="password">
+    </tr>
+    <tr>
+        <td>Confirm Password</td>
+        <input type="text" [(ngModel)]="confPassword">
+    </tr>
+</table>
+
+<button (click)="submit()">Submit</button>

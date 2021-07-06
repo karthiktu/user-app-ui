@@ -1,0 +1,19 @@
+<table>
+    <tr>
+        <th colspan="2">Edit User : {{username}}</th>
+    </tr>
+    <tr>
+        <td>Display Name</td>
+        <input type="text" [(ngModel)]="displayName">
+    </tr>
+    <tr>
+        <td>Email</td>
+        <input type="text" [(ngModel)]="email">
+    </tr>
+    <tr>
+        <td>Phone</td>
+        <input type="number" [(ngModel)]="phone">
+    </tr>
+</table>
+
+<button (click)="submit()">Save</button>
